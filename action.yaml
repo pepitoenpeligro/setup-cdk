@@ -1,7 +1,5 @@
 name: 'cdk-action'
-description: 'Step to deploy CDK with GithubActions'
-inputs:
-
+description: 'Step to deploy CDK with GithubActions'    
 runs:
   using: "composite"
   steps:     
