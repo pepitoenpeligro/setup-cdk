@@ -5,7 +5,7 @@ inputs:
 runs:
   using: "composite"
   steps:     
-  - id:  Istall aws cdk cli
+  - id:  Setup aws cdk cli
     run: | 
       npm install -g aws-cdk@2.86.0
     shell: bash
