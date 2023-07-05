@@ -3,7 +3,8 @@ description: 'Step to deploy CDK with GithubActions'
 runs:
   using: "composite"
   steps:     
-  - id:  Setup aws cdk cli
+  - id: setup
     run: | 
+      # install aws-cdk
       npm install -g aws-cdk@2.86.0
     shell: bash
